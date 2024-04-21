@@ -1,5 +1,6 @@
-﻿  ClientManager.cpp
-  GymApp.cpp
-  Generating Code...
+﻿  GymApp.cpp
+C:\Users\tdeni\OneDrive\Desktop\POO_Proiect_Echipa_2_Grupa_3\GymApp.cpp(57,58): warning C4566: character represented by universal-character-name '\u0219' cannot be represented in the current code page (1252)
+  (compiling source file '/GymApp.cpp')
+  
   AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  GymApp.vcxproj -> C:\Users\tdeni\source\repos\GymApp\x64\Debug\GymApp.exe
+  GymApp.vcxproj -> C:\Users\tdeni\OneDrive\Desktop\POO_Proiect_Echipa_2_Grupa_3\x64\Debug\GymApp.exe

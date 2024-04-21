@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tdeni\\source\\repos\\GymApp\\",
+  "WorkspaceRootPath": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\source\\repos\\GymApp\\GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:ClientManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ClientManager.cpp",
-              "DocumentMoniker": "C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.cpp",
+              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp",
               "RelativeDocumentMoniker": "ClientManager.cpp",
-              "ToolTip": "C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.cpp",
+              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp",
               "RelativeToolTip": "ClientManager.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAADwvysAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-21T12:23:46.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ClientManager.h",
-              "DocumentMoniker": "C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.h",
+              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h",
               "RelativeDocumentMoniker": "ClientManager.h",
-              "ToolTip": "C:\\Users\\tdeni\\source\\repos\\GymApp\\ClientManager.h",
+              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h",
               "RelativeToolTip": "ClientManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAHAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAADwvxoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-21T12:22:51.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GymApp.cpp",
-              "DocumentMoniker": "C:\\Users\\tdeni\\source\\repos\\GymApp\\GymApp.cpp",
+              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp",
               "RelativeDocumentMoniker": "GymApp.cpp",
-              "ToolTip": "C:\\Users\\tdeni\\source\\repos\\GymApp\\GymApp.cpp",
+              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp",
               "RelativeToolTip": "GymApp.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAA0AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-21T12:22:04.908Z",
               "EditorCaption": ""

@@ -33,9 +33,10 @@ int main(array<System::String^>^ args)
     {
         Console::WriteLine("Meniu:");
         Console::WriteLine("1. Adauga client");
-        Console::WriteLine("2. Afiseaza toti clientii");
-        Console::WriteLine("3. Cauta client dupa nume");
-        Console::WriteLine("4. Iesire");
+        Console::WriteLine("2. Sterge client");
+        Console::WriteLine("3. Afiseaza toti clientii");
+        Console::WriteLine("4. Cauta client dupa nume");
+        Console::WriteLine("5. Iesire");
 
         int choice = ReadIntFromConsole("Alege o optiune: ");
 
@@ -52,18 +53,25 @@ int main(array<System::String^>^ args)
         }
         case 2:
         {
+            // Șterge un client
+            String^ nameToDelete = ReadStringFromConsole("Introdu numele clientului de sters: ");
+            clientManager->DeleteClient(nameToDelete);
+            break;
+        }
+        case 3:
+        {
             // Afișează toți clienții
             clientManager->DisplayAllClients();
             break;
         }
-        case 3:
+        case 4:
         {
             // Caută un client după nume
             String^ name = ReadStringFromConsole("Introdu numele clientului cautat: ");
             clientManager->FindClientByName(name);
             break;
         }
-        case 4:
+        case 5:
         {
             // Ieșire din program
             return 0;
