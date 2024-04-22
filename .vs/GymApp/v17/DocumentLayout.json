@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:ClientManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:GymApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:TrainerManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:TrainerManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74EF1025-A3AD-4FCD-922F-90F06501A121}|GymApp.vcxproj|solutionrelative:ClientManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ClientManager.cpp",
               "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp",
               "RelativeDocumentMoniker": "ClientManager.cpp",
               "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.cpp",
               "RelativeToolTip": "ClientManager.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAADwvysAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-21T12:23:46.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ClientManager.h",
-              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h",
-              "RelativeDocumentMoniker": "ClientManager.h",
-              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\ClientManager.h",
-              "RelativeToolTip": "ClientManager.h",
-              "ViewState": "AQIAABMAAAAAAAAAAADwvxoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-21T12:22:51.945Z",
+              "WhenOpened": "2024-04-22T17:03:59.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TrainerManager.cpp",
+              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.cpp",
+              "RelativeDocumentMoniker": "TrainerManager.cpp",
+              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.cpp",
+              "RelativeToolTip": "TrainerManager.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T17:02:33.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainerManager.h",
+              "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.h",
+              "RelativeDocumentMoniker": "TrainerManager.h",
+              "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\TrainerManager.h",
+              "RelativeToolTip": "TrainerManager.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-22T17:02:24.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "GymApp.cpp",
               "DocumentMoniker": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp",
               "RelativeDocumentMoniker": "GymApp.cpp",
               "ToolTip": "C:\\Users\\tdeni\\OneDrive\\Desktop\\POO_Proiect_Echipa_2_Grupa_3\\GymApp.cpp",
               "RelativeToolTip": "GymApp.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAlAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-21T12:22:04.908Z",
               "EditorCaption": ""
