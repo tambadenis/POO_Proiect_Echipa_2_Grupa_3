@@ -1,7 +1,9 @@
-﻿#include "pch.h"
+﻿//GymApp.cpp
+
+#include "pch.h"
 #include "ClientManager.h"
 #include "TrainerManager.h"
-
+#include "EchipamentManager.h"
 using namespace System;
 
 int ReadIntFromConsole(String^ prompt)
@@ -34,9 +36,10 @@ String^ ReadStringFromConsole(String^ prompt)
 
 int main(array<System::String^>^ args)
 {
-    // Crează o instanță a clasei ClientManager si a clasei TrainerManager
+    // Crează o instanță a clasei ClientManager, TrainerManager și EchipamentManager
     ClientManager^ clientManager = gcnew ClientManager();
     TrainerManager^ trainerManager = gcnew TrainerManager();
+    EchipamentManager^ echipamentManager = gcnew EchipamentManager();
 
     bool continueRunning = true;
 
@@ -45,7 +48,8 @@ int main(array<System::String^>^ args)
         Console::WriteLine("Meniu principal:");
         Console::WriteLine("1. Administrare clienti");
         Console::WriteLine("2. Administrare antrenori");
-        Console::WriteLine("3. Iesire");
+        Console::WriteLine("3. Administrare echipamente");
+        Console::WriteLine("4. Iesire");
 
         int choice = ReadIntFromConsole("Alege o optiune: ");
 
@@ -176,6 +180,67 @@ int main(array<System::String^>^ args)
             break;
         }
         case 3:
+        {
+            // Meniu de gestionare a echipamentelor
+            while (true)
+            {
+                Console::WriteLine("\nMeniu Administrare Echipamente:");
+                Console::WriteLine("1. Adauga echipament");
+                Console::WriteLine("2. Sterge echipament");
+                Console::WriteLine("3. Afiseaza toate echipamentele");
+                Console::WriteLine("4. Cauta echipament dupa nume");
+                Console::WriteLine("5. Inapoi la meniul principal");
+
+                int echipamentChoice = ReadIntFromConsole("Alege o optiune: ");
+
+                switch (echipamentChoice)
+                {
+                case 1:
+                {
+                    // Adauga un echipament
+                    String^ name = ReadStringFromConsole("Introdu numele echipamentului: ");
+                    double price = ReadDoubleFromConsole("Introdu pretul echipamentului: ");
+                    echipamentManager->AddEchipament(name, price);
+                    break;
+                }
+                case 2:
+                {
+                    // Sterge un echipament
+                    String^ nameToDelete = ReadStringFromConsole("Introdu numele echipamentului de sters: ");
+                    echipamentManager->DeleteEchipament(nameToDelete);
+                    break;
+                }
+                case 3:
+                {
+                    // Afiseaza toate echipamentele
+                    echipamentManager->DisplayAllEchipamente();
+                    break;
+                }
+                case 4:
+                {
+                    // Cauta un echipament dupa nume
+                    String^ name = ReadStringFromConsole("Introdu numele echipamentului cautat: ");
+                    echipamentManager->FindEchipamentByName(name);
+                    break;
+                }
+                case 5:
+                {
+                    // Revenire la meniul principal
+                    Console::WriteLine("\nRevenire la meniul principal...");
+                    break;
+                }
+                default:
+                {
+                    Console::WriteLine("Optiune invalida. Te rog sa alegi din nou.");
+                    break;
+                }
+                }
+                if (echipamentChoice == 5)
+                    break;
+            }
+            break;
+        }
+        case 4:
         {
             // Iesire
             continueRunning = false;
